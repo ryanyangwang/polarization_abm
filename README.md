@@ -3,8 +3,8 @@
 This repository contains the full replication package for the paper:
 
 **"Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: A Agent-Based Modeling of Minimal Versus Strong Communication Effects"**  
-By [Author Names], [Year]  
-(Forthcoming / Under Review — journal name redacted)
+By [Author Names], [2025]  
+(Under Review — journal name redacted)
 
 ---
 
@@ -25,7 +25,7 @@ This study uses an agent-based modeling (ABM) approach to simulate how interpers
 
 ---
 
-## Model implementation
+## Model Implementation
 
 The model was developed in **NetLogo 6.4.0** and simulates interactions between two types of agents:
 
@@ -42,20 +42,45 @@ See `Appendix.pdf` for full technical specifications and parameter settings.
 
 ---
 
-## Model introduction
+## Model Introduction
 
-1. **Run the model**:
-   - Open `simulation_model.nlogo` or `validation_model.nlogo` (along with thein NetLogo 6.4.0
-   - Use the included **BehaviorSpace** configuration to simulate the four scenarios with all parameter combinations
+### 1. **Model Versions**
 
-2. **Visualize results**:
-   - Run `visualization.R` to generate key figures:
-     - Affective polarization over time
-     - Social diversity and media diversity indices
-     - Partisan comparisons at simulation end
+- `simulation_model.nlogo`: The base version of the model with **generalized (non-calibrated)** agent attributes and randomized initialization.
+- `validation_model.nlogo`: The **empirically calibrated** version of the model based on a nationally representative U.S. survey (see Appendix for calibration details).
+- All simulation results were generated using NetLogo’s **BehaviorSpace** tool, which executed **16 experimental conditions** (four combinations of social/media influence × homogeneous discussion/selective exposure) as described in the **technical appendix**.
+
+### 2. **Visualizing Results from `simulation.csv`**
+
+To reproduce the key visualizations presented in the paper:
+
+- Run the `visualization.R` script using R (recommended: R ≥ 4.2).
+- The script will generate:
+  - Affective polarization trends over time  
+  - Social diversity index (based on interpersonal interactions)  
+  - Media diversity index (based on news consumption)  
+  - Partisan comparisons at the final simulation step
+
+Figures correspond to those reported in the manuscript and supplement.
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use these materials, please cite the paper as:
+
+[Author Names]. (2025). Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: A Agent-Based Modeling of Minimal Versus Strong Communication Effects. [Journal name redacted].
+
+---
+
+## Contact
+
+For questions or feedback, please contact:  
+**[Ryan Y. Wang]** – [ryan.wang@lsu.edu]  
+[Louisiana State University, United States]
+
+---
+
+## Note
+
+This repository is shared for academic and non-commercial use. Please do not distribute modified versions without attribution.
