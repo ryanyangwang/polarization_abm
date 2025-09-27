@@ -44,13 +44,13 @@ See `Appendix.pdf` for full technical specifications and parameter settings.
 
 ## Model Introduction
 
-### 1. **Model Versions**
+### 1. **Model versions**
 
 - `simulation_model.nlogo`: The base version of the model with **generalized (non-calibrated)** agent attributes and randomized initialization.
 - `validation_model.nlogo`: The **empirically calibrated** version of the model based on a nationally representative U.S. survey (see Appendix for calibration details).
 - All simulation results were generated using NetLogo’s **BehaviorSpace** tool, which executed **16 experimental conditions** (four combinations of social/media influence × homogeneous discussion/selective exposure) as described in the **technical appendix**.
 
-### 2. **Visualizing Results from `simulation.csv`**
+### 2. **Visualizing results from `simulation.csv`**
 
 To reproduce the key visualizations presented in the paper:
 
