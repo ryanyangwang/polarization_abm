@@ -121,7 +121,7 @@ end
 to setup-humans-from-csv
   clear-turtles  ;; optional: just removes old agents, not patches
 
-  let raw-data csv:from-file "validation_data.csv"
+  let raw-data csv:from-file "calibration.csv"
   let data but-first raw-data
 
   foreach data [
