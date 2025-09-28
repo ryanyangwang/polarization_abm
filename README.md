@@ -3,8 +3,7 @@
 This repository contains the simulation code, model files, and output visualizations for the following study:
 
 **"Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: An Agent-Based Modeling of Minimal Versus Strong Communication Effects"**  
-By [Author Names], [2025]  
-(Under Review — journal name redacted)
+By [Gil de Zúñiga, H., Wang, R. Y. & Cheng, Z.], [2025]  
 
 This study uses an agent-based modeling (ABM) approach to simulate how interpersonal political discussions and selective exposure to media interact to shape **affective polarization**, **social diversity**, and **media diversity** within a hostile partisan environment. The model explores four communication scenarios: minimal, strong, social-dominant, and media-dominant, across 16 parameter combinations, calibrated with U.S. survey data.
 
@@ -18,6 +17,7 @@ This study uses an agent-based modeling (ABM) approach to simulate how interpers
 | `validation_model.nlogo` | Validation version using empirically calibrated agent attributes |
 | `simulation.csv` | Output data from 16 experimental conditions (100 iterations each) |
 | `visualization.R` | R script for plotting affective polarization, social/media diversity, and partisan differences (as presented in the paper) |
+| `appendix.pdf` | Technical appendix detailing data calibration, variable definitions, parameter settings, and model algorithms |
 
 ---
 
@@ -65,13 +65,13 @@ Figures correspond to those reported in the manuscript and supplement.
 
 If you use these materials, please cite the paper as:
 
-[Author Names]. (2025). Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: A Agent-Based Modeling of Minimal Versus Strong Communication Effects. [Journal name redacted].
+[Gil de Zúñiga, H., Wang, R. Y. & Cheng, Z.]. (2025). Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: A Agent-Based Modeling of Minimal Versus Strong Communication Effects. [Social Science Computer Review].
 
 ---
 
 ## Contact
 
-For questions or feedback, please contact:  
+For questions or feedback of the model, please contact:  
 **[Ryan Y. Wang]** – [ryan.wang@lsu.edu]  
 [Louisiana State University, United States]
 
