@@ -14,8 +14,9 @@ This study uses an agent-based modeling (ABM) approach to simulate how interpers
 | File | Description |
 |------|-------------|
 | `simulation_model.nlogo` | NetLogo model implementing the main simulation described in the paper |
-| `validation_model.nlogo` | Validation version using empirically calibrated agent attributes |
+| `calibration_model.nlogo` | Calibrated version using empirically calibrated agent attributes |
 | `simulation.csv` | Output data from 16 experimental conditions (100 iterations each) |
+| `calibration.csv` | Sample dataset used to calibrate agent attributes (party ID, ideology, discussion and news frequency, and affective polarization |
 | `visualization.R` | R script for plotting affective polarization, social/media diversity, and partisan differences (as presented in the paper) |
 | `appendix.pdf` | Technical appendix detailing data calibration, variable definitions, parameter settings, and model algorithms |
 
@@ -43,8 +44,8 @@ See `Appendix.pdf` for full technical specifications and parameter settings.
 ### 1. **Model versions**
 
 - `simulation_model.nlogo`: The base version of the model with **generalized (non-calibrated)** agent attributes and randomized initialization.
-- `validation_model.nlogo`: The **empirically calibrated** version of the model based on a nationally representative U.S. survey (see Appendix for calibration details).
-- All simulation results were generated using NetLogo’s **BehaviorSpace** tool, which executed **16 experimental conditions** (four combinations of social/media influence × homogeneous discussion/selective exposure) as described in the **technical appendix**.
+- `calibration_model.nlogo`: The **empirically calibrated** version of the model based on a nationally representative U.S. survey (make sure to put the `calibration.csv` in the same folder with the model. Also see Appendix for calibration details).
+- All simulation results were generated using NetLogo’s **BehaviorSpace** tool, which executed **16 experimental conditions** (four combinations of social/media influence × homogeneous discussion/selective exposure) as described in the Appendix.
 
 ### 2. **Visualizing results from `simulation.csv`**
 
