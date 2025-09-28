@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains the simulation code, model files, and output visualizations for the following study:
+This repository contains the simulation code (for both base version and calibrated version), output visualizations and technical appendix for the following study:
 
 **"Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: An Agent-Based Modeling of Minimal Versus Strong Communication Effects"**  
 By Gil de Zúñiga, H., Wang, R. Y. & Cheng, Z. (2025)  
@@ -66,7 +66,7 @@ Figures correspond to those reported in the manuscript and supplement.
 
 If you use these materials, please cite the paper as:
 
-[Gil de Zúñiga, H., Wang, R. Y. & Cheng, Z.]. (2025). Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: A Agent-Based Modeling of Minimal Versus Strong Communication Effects. Social Science Computer Review.
+Gil de Zúñiga, H., Wang, R. Y. & Cheng, Z. (2025). Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: A Agent-Based Modeling of Minimal Versus Strong Communication Effects. Social Science Computer Review.
 
 ---
 
