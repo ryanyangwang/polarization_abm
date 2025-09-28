@@ -1,14 +1,10 @@
-# Replication Materials
+# Overview
 
-This repository contains the full replication package for the paper:
+This repository contains the simulation code, model files, and output visualizations for the following study:
 
-**"Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: A Agent-Based Modeling of Minimal Versus Strong Communication Effects"**  
+**"Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: An Agent-Based Modeling of Minimal Versus Strong Communication Effects"**  
 By [Author Names], [2025]  
 (Under Review — journal name redacted)
-
----
-
-## Overview
 
 This study uses an agent-based modeling (ABM) approach to simulate how interpersonal political discussions and selective exposure to media interact to shape **affective polarization**, **social diversity**, and **media diversity** within a hostile partisan environment. The model explores four communication scenarios: minimal, strong, social-dominant, and media-dominant, across 16 parameter combinations, calibrated with U.S. survey data.
 
